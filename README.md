@@ -3,15 +3,20 @@ SchubsH uses the Huffman compression algorithm, while SchubsL uses the LZW compr
 
 
 ## Tests:
-testOneSchubsH: make sure we can successfully SchubsH and Deschubs one random file
+#### testOneSchubsH:
+Make sure we can successfully SchubsH and Deschubs one random file
 
-testAllSchubsH: make sure we can successfully SchubsH multiple files
+#### testAllSchubsH:
+Make sure we can successfully SchubsH multiple files
 
-testOneSchubsL: make sure we can successfully SchubsL and Deschubs one random file
+#### testOneSchubsL:
+Make sure we can successfully SchubsL and Deschubs one random file
 
-testAllSchubsL: make sure we can successfully SchubsL multiple files
+#### testAllSchubsL:
+Make sure we can successfully SchubsL multiple files
 
-testSchubsArc: make sure we can successfully make an archive of multiple files tar'ed together and Deschubs them
+#### testSchubsArc:
+Make sure we can successfully make an archive of multiple files tar'ed together and Deschubs them
 
 
 ## Installation Instructions:
