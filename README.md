@@ -25,6 +25,7 @@ or
 > java -cp target/classes SchubsH (GLOB)
 
 
+
 #### SchubsL:
 
 > java -cp target/classes SchubsL (filename)
@@ -34,6 +35,7 @@ or
 > java -cp target/classes SchubsL (GLOB)
 
 
+
 #### Deschubs:
 
 > java -cp target/classes Deschubs (filename).hh|ll
@@ -41,6 +43,7 @@ or
 or
 
 > java -cp target/classes Deschubs (GLOB).zl
+
 
 
 #### SchubsArc:
