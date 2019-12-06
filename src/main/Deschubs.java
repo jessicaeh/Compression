@@ -1,7 +1,7 @@
 // Program: Deschubs
 // Author: Jessica Halbert
 // Date: 12/3/19
-// Execute:  java deschubs <filename>.hh|ll or java deschubs <archive>.zz
+// Execute:  java deschubs <filename>.hh|ll or java deschubs <archive>.zl
 // Purpose: Produce one archive.zz containing compressed versions of all the txt files
 
 import java.io.File;
@@ -128,7 +128,7 @@ public class Deschubs
         {
             writer.write(val);
             codeword = reader.readInt(W);
-            
+
             if (codeword == R)
                 break;
 
