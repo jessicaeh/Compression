@@ -1,7 +1,17 @@
 ## Design:
 
 
+
 ## Tests:
+testOneSchubsH: make sure we can successfully SchubsH and Deschubs one random file
+
+testAllSchubsH: make sure we can successfully SchubsH multiple files
+
+testOneSchubsL: make sure we can successfully SchubsL and Deschubs one random file
+
+testAllSchubsL: make sure we can successfully SchubsL multiple files
+
+testSchubsArc: make sure we can successfully make an archive of multiple files tar'ed together and Deschubs them
 
 
 ## Installation Instructions:
@@ -25,7 +35,6 @@ or
 > java -cp target/classes SchubsH (GLOB)
 
 
-
 #### SchubsL:
 
 > java -cp target/classes SchubsL (filename)
@@ -35,7 +44,6 @@ or
 > java -cp target/classes SchubsL (GLOB)
 
 
-
 #### Deschubs:
 
 > java -cp target/classes Deschubs (filename).hh|ll
@@ -43,7 +51,6 @@ or
 or
 
 > java -cp target/classes Deschubs (GLOB).zl
-
 
 
 #### SchubsArc:
