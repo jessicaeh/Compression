@@ -1,3 +1,6 @@
+### Installation Instructions:
+
+
 ### Maven Instructions:
 mvn clean
 
@@ -8,12 +11,11 @@ mvn test
 
 ### CLI Instructions:
 SchubsH:
-
-java -cp target/classes SchubsH (filename)
+> java -cp target/classes SchubsH (filename)
 
 or
 
-java -cp target/classes SchubsH (GLOB)
+> java -cp target/classes SchubsH (GLOB)
 
 
 SchubsL:
