@@ -1,4 +1,11 @@
+### Design:
+
+
+### Tests:
+
+
 ### Installation Instructions:
+git clone
 
 
 ### Maven Instructions:
@@ -20,27 +27,26 @@ or
 
 SchubsL:
 
-java -cp target/classes SchubsL (filename)
+> java -cp target/classes SchubsL (filename)
 
 or
 
-java -cp target/classes SchubsL (GLOB)
+> java -cp target/classes SchubsL (GLOB)
 
 
 Deschubs:
 
-java -cp target/classes Deschubs (filename).hh|ll
+> java -cp target/classes Deschubs (filename).hh|ll
 
 or
 
-java -cp target/classes Deschubs (GLOB).zl
+> java -cp target/classes Deschubs (GLOB).zl
 
 
 SchubsArc:
 
-java -cp target/classes SchubsArc (name of archive) (filename)
+> java -cp target/classes SchubsArc (name of archive) (filename)
 
 or
 
-java -cp target/classes SchubsArc (name of archive) (GLOB)
-
+> java -cp target/classes SchubsArc (name of archive) (GLOB)
