@@ -80,9 +80,7 @@ public class CompressionTest extends TestCase
 
         // expand the compressed files
         Deschubs expand = new Deschubs();
-        expand.main(new String[] {abra + ".hh"});
-        expand.main(new String[] {gosia + ".hh"});
-        expand.main(new String[] {input + ".hh"});
+        expand.main(new String[] {abra + ".hh", gosia + ".hh", input + ".hh"});
 
         // compare all the files
         boolean match = filesSame(abra, folderPath + File.separator + "abra2.txt") && filesSame(gosia, folderPath + File.separator + "gosia2.txt") &&
@@ -162,9 +160,7 @@ public class CompressionTest extends TestCase
 
         // expand the compressed files
         Deschubs expand = new Deschubs();
-        expand.main(new String[] {abra + ".ll"});
-        expand.main(new String[] {gosia + ".ll"});
-        expand.main(new String[] {input + ".ll"});
+        expand.main(new String[] {abra + ".ll", gosia + ".ll", input + ".ll"});
 
         // compare all the files
         boolean match = filesSame(abra, folderPath + File.separator + "abra2.txt") && filesSame(gosia, folderPath + File.separator + "gosia2.txt") &&

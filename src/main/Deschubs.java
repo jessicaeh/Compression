@@ -19,17 +19,20 @@ public class Deschubs
 
     public static void main(String[] args) 
     {
-        // gets the .hh or .ll extension
-        String extension = args[0].substring(args[0].length() - 3);
+        for (int i = 0; i < args.length; i++)
+        {
+            // gets the .hh or .ll extension
+            String extension = args[i].substring(args[i].length() - 3);
 
-        if (extension.equals(".hh"))
-            expandH(args[0], args[0].substring(0, args[0].length() - 3));
-        else if (extension.equals(".ll"))
-            expandL(args[0], args[0].substring(0, args[0].length() - 3));
-        else if (extension.equals(".zl"))
-            expandZL(args[0], args[0].substring(0, args[0].length() - 3) + ".tar");
-        else
-            throw new RuntimeException("This file type not supported.");
+            if (extension.equals(".hh"))
+                expandH(args[i], args[i].substring(0, args[i].length() - 3));
+            else if (extension.equals(".ll"))
+                expandL(args[i], args[i].substring(0, args[i].length() - 3));
+            else if (extension.equals(".zl"))
+                expandZL(args[i], args[i].substring(0, args[i].length() - 3) + ".tar");
+            else
+                throw new RuntimeException("This file type not supported.");
+        }
     }
 
     // Huffman Expansion --------------------------------------------------------------------------------------------------------
