@@ -1,14 +1,14 @@
-### Design:
+## Design:
 
 
-### Tests:
+## Tests:
 
 
-### Installation Instructions:
+## Installation Instructions:
 git clone
 
 
-### Maven Instructions:
+## Maven Instructions:
 mvn clean
 
 mvn compile
@@ -16,8 +16,8 @@ mvn compile
 mvn test
 
 
-### CLI Instructions:
-##### SchubsH:
+## CLI Instructions:
+#### SchubsH:
 > java -cp target/classes SchubsH (filename)
 
 or
@@ -25,7 +25,7 @@ or
 > java -cp target/classes SchubsH (GLOB)
 
 
-##### SchubsL:
+#### SchubsL:
 
 > java -cp target/classes SchubsL (filename)
 
@@ -34,7 +34,7 @@ or
 > java -cp target/classes SchubsL (GLOB)
 
 
-##### Deschubs:
+#### Deschubs:
 
 > java -cp target/classes Deschubs (filename).hh|ll
 
@@ -43,7 +43,7 @@ or
 > java -cp target/classes Deschubs (GLOB).zl
 
 
-##### SchubsArc:
+#### SchubsArc:
 
 > java -cp target/classes SchubsArc (name of archive) (filename)
 
