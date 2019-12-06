@@ -1,5 +1,5 @@
 ## Design:
-
+SchubsH uses the Huffman compression algorithm, while SchubsL uses the LZW compression algorithm. Deschubs expands files and is capable of expanding files compressed using Huffman or LZW. SchubsArc makes a compressed archive of several files and Deschubs can be used to expand this archive back into its individual parts.
 
 
 ## Tests:
